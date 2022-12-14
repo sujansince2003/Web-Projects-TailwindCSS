@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Facebook login</title>
+    
+  </head>
+  <body class="m-0  p-0 box-border bg-[#f0f2f5]">
+    <div class="flex justify-evenly">
+      <!-- left corner starts here -->
+      <div class="flex flex-col mt-12 ">
+        <div class="ml-[-25px]">
+          <img class="h-20" src="./fblogo.svg" alt="facebook logo" />
+        </div>
+        <h2 class="text-3xl">Recent logins</h2>
+        <p class="text-[#606770]">Click your picture or add an account.</p>
+
+        <!-- profile div starts here -->
+        <div class="flex mt-4">
+          <div
+            class="w-fit border-[1px] border-solid border-gray-300 rounded-xl overflow-hidden hover:drop-shadow-lg"
+          >
+            <div class="h-[160px] w-[160px]">
+              <img
+                src="./myprofile.jpeg"
+                alt=""
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <p class="bg-white text-black text-center p-2">Sujan</p>
+          </div>
+
+          <div
+            class="w-fit ml-2 border-[1px] border-solid border-gray-300 rounded-xl overflow-hidden hover:drop-shadow-lg"
+          >
+            <div class="h-[160px] w-[160px] flex items-center justify-center bg-[#f5f6f7]">
+              <img src="./plusicon.png"
+                alt=""
+                style="height: 50%; width: 50%; object-fit: contain"
+              />
+            </div>
+            <p class="text-[#1877f2] text-bold bg-white text-center p-2">
+              Add Account
+            </p>
+          </div>
+        </div>
+      </div>
+    
+    <!-- left corner ends here -->
+
+    <!-- right corner starts here -->
+    <div class="mt-20 flex flex-col w-[420px] h-[360px] bg-white border-2 border-gray-200 rounded-xl drop-shadow-lg"  >
+      <form action="" class="flex flex-col bg-white m-4">
+        <input  
+        class="border-[1px] border-gray-300 rounded-md p-3 bg-white "
+        type="text" placeholder="Email or Phone number" />
+
+
+
+        <input 
+        class="border-[1px] border-gray-300 rounded-md p-3 mt-3 bg-white"
+        type="password" placeholder="Password" />
+        <input 
+        class="border-[1px] border-gray-300 rounded-xl p-3 mt-3 bg-blue-600 text-white font-bold text-xl"
+        type="submit" value="Log In" />
+
+      </form>
+      <div class="flex justify-center items-center my-2 bg-white">
+      
+
+        <a class="block bg-white text-blue-600" href="#">Forgot password?</a>
+      </div>
+    <hr>
+        
+      <div class="flex justify-center items-center bg-white mt-5 mb-5 ">
+        <button class="bg-[#42b72a] p-4 text-white font-bold rounded-xl text-base">Create a new account</button>
+        
+      </div>
+      <div class="mt-10 text-center bg-transparent">
+
+          <p class="bg-transparent"><a class="font-[500] bg-transparent" href="#">Create a Page </a>for a celebrity, brand or business.</p>
+        </div>
+        </div>
+
+    <!-- right corner ends here -->
+</div>
+
+
+  </body>
+
+</html>
